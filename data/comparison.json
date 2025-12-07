@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-12-07T12:45:56.586851",
+  "data": {
+    "comparison": [
+      {
+        "category": "Диваны",
+        "jysk_stats": {
+          "avg_price": 9496.44,
+          "min_price": 1999,
+          "max_price": 17999,
+          "count": 39
+        },
+        "market_stats": {
+          "avg_price": 12617.33,
+          "min_price": 2999,
+          "max_price": 49000,
+          "count": 159
+        },
+        "comparison": {
+          "price_diff": -3120.9,
+          "price_diff_percent": -24.7,
+          "status": "значительно дешевле",
+          "status_class": "cheaper"
+        },
+        "site_comparison": [
+          {
+            "site": "Akram Mebel",
+            "avg_price": 23699.84,
+            "product_count": 37,
+            "diff_percent": -59.9,
+            "status": "дешевле"
+          },
+          {
+            "site": "City Mebel",
+            "avg_price": 9256.25,
+            "product_count": 122,
+            "diff_percent": 2.6,
+            "status": "дороже"
+          }
+        ],
+        "samples": {
+          "jysk_count": 39,
+          "market_count": 159,
+          "total_sites": 3
+        }
+      },
+      {
+        "category": "Стулья",
+        "jysk_stats": {
+          "avg_price": 3369.27,
+          "min_price": 1199,
+          "max_price": 6999,
+          "count": 37
+        },
+        "market_stats": {
+          "avg_price": 2906.0,
+          "min_price": 250,
+          "max_price": 28000,
+          "count": 35
+        },
+        "comparison": {
+          "price_diff": 463.27,
+          "price_diff_percent": 15.9,
+          "status": "значительно дороже",
+          "status_class": "expensive"
+        },
+        "site_comparison": [
+          {
+            "site": "Akram Mebel",
+            "avg_price": 2906.0,
+            "product_count": 35,
+            "diff_percent": 15.9,
+            "status": "дороже"
+          }
+        ],
+        "samples": {
+          "jysk_count": 37,
+          "market_count": 35,
+          "total_sites": 2
+        }
+      },
+      {
+        "category": "Кровати",
+        "jysk_stats": {
+          "avg_price": 9127.57,
+          "min_price": 4499,
+          "max_price": 18799,
+          "count": 14
+        },
+        "market_stats": {
+          "avg_price": 10333.22,
+          "min_price": 1970,
+          "max_price": 34999,
+          "count": 9
+        },
+        "comparison": {
+          "price_diff": -1205.65,
+          "price_diff_percent": -11.7,
+          "status": "дешевле",
+          "status_class": "cheaper-moderate"
+        },
+        "site_comparison": [
+          {
+            "site": "Akram Mebel",
+            "avg_price": 10333.22,
+            "product_count": 9,
+            "diff_percent": -11.7,
+            "status": "дешевле"
+          }
+        ],
+        "samples": {
+          "jysk_count": 14,
+          "market_count": 9,
+          "total_sites": 2
+        }
+      }
+    ],
+    "summary": {
+      "total_categories": 3,
+      "categories_where_cheaper": 2,
+      "categories_where_expensive": 1,
+      "categories_where_normal": 0,
+      "avg_price_diff": -6.8,
+      "jysk_advantage": true
+    }
+  }
+}
