@@ -3,3 +3,4 @@ flask-cors
 apscheduler
 gunicorn
 beautifulsoup4
+requests
